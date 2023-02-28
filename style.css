@@ -1,0 +1,158 @@
+*{
+    font-family: 'Roboto Slab', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body{
+background-color: #00425A;
+}
+
+/*Barra de navegacion*/
+.navbar {
+    padding: 2rem;
+    background-color: #53b2d4;
+    font-size: 1rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*secction*/
+
+.informacion-principal{
+width: 100%;
+min-height: 10%;
+background-color: #00425A;
+color: aliceblue;
+text-align: center;
+}
+
+.nombre{
+   font-size: 2.5rem;
+   padding-bottom: 5px;
+   text-shadow: 3px 3px 5px black;
+   text-transform: uppercase;
+}
+
+.profesion{
+    font-size: 2rem;
+    padding-bottom: 50px;
+    margin: 0;
+    text-shadow: 3px 3px 5px black;
+}
+
+/*imagen principal*/
+.imagen-principal{
+    max-width: 20%;
+    border: 5px solid #BFDB38;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+   
+}
+
+/*información personal*/
+.articulo{
+    background-color: #00425A;
+    padding-bottom: 30px;
+}
+.informacion-personal{
+    background-color: #FC7300 ;
+    text-align: center;
+    margin: 0 40px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px #111;
+    outline-offset: -10px;
+}
+.titulo{
+    padding-top: 20px;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px #fff;
+    text-transform: uppercase;
+}
+
+.parrafo{
+    padding: 0 15px;
+
+
+}
+/*experiencia*/
+.contenedor{
+    background-color: #00425A;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.titulo-contenedor{
+    text-shadow: 3px 3px 5px #fff;
+}
+
+.front{
+    background-color: #BFDB38;
+    border: 3px solid #333;
+    margin: 0px 40px 20px;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 10px #111;
+}
+.back{
+    background-color: #BFDB38;
+    border: 5px solid #333;
+    margin: 0px 40px;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    box-shadow: 5px 5px 10px #111;
+}
+
+.informacion{
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+
+.contenedor .icono{
+    font-size: 1em;
+    margin: 0px 15px 20px;
+}
+
+/*carrucel*/
+
+.fondo{
+    background-color: #00425A;
+    margin-top: 0;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    outline: 5px solid #222;
+    outline-offset: -15px;
+}
+
+
+.proyectos{
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px #000;
+}
+.informacion-proyectos{
+    color: #fff;
+}
+
+
+
+
+/*footer**/
+footer{
+    background-color: #050505 ;
+    color: #fff;
+   
+}
+
+i{
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 15px;
+}
+
